@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/home"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_verify_certificate"
+            android:icon="@drawable/verify"
+            android:title="Verify Certificate" />
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/syllabus1"
+            android:title="Courses" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_enquiry"
+                android:icon="@drawable/enquiry"
+                android:title="Reach Us" />
+        </menu>
+    </item>
+
+</menu>

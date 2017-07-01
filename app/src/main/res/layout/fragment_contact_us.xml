@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.educonf.test.Contact_us_fragment"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/download"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:-"
+        android:id="@+id/tvContact_email"
+        android:layout_marginTop="74dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/tvContact_phone"
+        android:layout_alignStart="@+id/tvContact_phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info@educonftech.com  "
+        android:id="@+id/rvemail"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/tvContact_email"
+        android:layout_alignRight="@+id/tv_phone"
+        android:layout_alignEnd="@+id/tv_phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No.:-"
+        android:id="@+id/tvContact_phone"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tvContact_email"
+        android:layout_toLeftOf="@+id/tv_phone"
+        android:layout_toStartOf="@+id/tv_phone"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7050853007 / 7050854007"
+        android:id="@+id/tv_phone"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/tvContact_phone"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp:-"
+        android:id="@+id/tvContact_whatsapp"
+        android:layout_below="@+id/tvContact_phone"
+        android:layout_alignLeft="@+id/tvContact_phone"
+        android:layout_alignStart="@+id/tvContact_phone"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9693094466 / 7050854007"
+        android:id="@+id/tv_whatsappp"
+        android:layout_alignBottom="@+id/tvContact_whatsapp"
+        android:layout_alignLeft="@+id/tv_phone"
+        android:layout_alignStart="@+id/tv_phone"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skype :- "
+        android:id="@+id/tvContact_skype"
+        android:layout_below="@+id/tvContact_whatsapp"
+        android:layout_alignLeft="@+id/tvContact_whatsapp"
+        android:layout_alignStart="@+id/tvContact_whatsapp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website :-"
+        android:id="@+id/tvContact_address"
+        android:layout_below="@+id/tvContact_skype"
+        android:layout_alignLeft="@+id/tvContact_skype"
+        android:layout_alignStart="@+id/tvContact_skype"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://educonftech.com/"
+        android:id="@+id/tv_website"
+        android:layout_below="@+id/tvContact_skype"
+        android:layout_alignLeft="@+id/tv_whatsappp"
+        android:layout_alignStart="@+id/tv_whatsappp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ranjanraja007@gmail.com"
+        android:id="@+id/tv_skype"
+        android:layout_above="@+id/tv_website"
+        android:layout_alignLeft="@+id/tv_whatsappp"
+        android:layout_alignStart="@+id/tv_whatsappp"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Educonf Technologies Pvt Ltd."
+        android:id="@+id/textView4"
+        android:layout_above="@+id/rvemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

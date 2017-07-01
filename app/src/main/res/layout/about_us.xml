@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_about">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="E"
+                android:id="@+id/textView"
+                android:textSize="30dp"
+                android:layout_alignBottom="@+id/tvAbout"
+                android:layout_toLeftOf="@+id/tvAbout"
+                android:layout_toStartOf="@+id/tvAbout"
+                android:textColor="#ff0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="duconf Technologies "
+                android:id="@+id/tvAbout"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="34dp"
+                android:textColor="#ffffff"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/tvAboutIso"
+                android:layout_alignEnd="@+id/tvAboutIso" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ivAbout1"
+                android:src="@drawable/ethical1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Certified Ethical Hacking Training"
+                android:id="@+id/tvAbout1"
+                android:layout_below="@+id/ivAbout1"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ethical Hacking / Cyber Security / Live Hacking Experience"
+                android:id="@+id/tvAbout2"
+                android:layout_below="@+id/tvAbout1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ivAbout2"
+                android:src="@drawable/industrial"
+                android:layout_below="@+id/tvAbout2"
+                android:layout_alignLeft="@+id/ivAbout1"
+                android:layout_alignStart="@+id/ivAbout1"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Industrial Training Program"
+                android:id="@+id/tvAbout3"
+                android:layout_below="@+id/ivAbout2"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Embedded System / Networking &quot;CCNA&quot; / Autocad / Information Security / Programming Language  "
+                android:id="@+id/tvAbout4"
+                android:gravity="center"
+                android:layout_below="@+id/tvAbout3"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ivAbout3"
+                android:src="@drawable/website"
+                android:layout_below="@+id/tvAbout4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Website / Software Designing &amp; Security"
+                android:id="@+id/tvAbout5"
+                android:layout_below="@+id/ivAbout3"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Website / Software Designing / Logo Making / Android Apps Development"
+                android:id="@+id/tvAbout6"
+                android:gravity="center"
+                android:layout_below="@+id/tvAbout5"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ivAbout4"
+                android:src="@drawable/intern"
+                android:layout_below="@+id/tvAbout6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Internships For Students / Online Money Making"
+                android:id="@+id/tvAbout7"
+                android:layout_below="@+id/ivAbout4"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Affiliates Marking / Freelancing Work Internships programs Project Training"
+                android:id="@+id/tvAbout8"
+                android:gravity="center"
+                android:layout_below="@+id/tvAbout7"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAboutName"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:text="Educonf Technologies Private Limited"
+                android:layout_below="@+id/tvAbout8"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAboutIso"
+                android:text="An ISO 9001:2015 Certified Company in India"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvAboutName"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvIndustry"
+                android:layout_below="@+id/tvAboutIso"
+                android:text="Industrial Training"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Winter/ Summer Industrial Training"
+                android:gravity="center"
+                android:id="@+id/tvIndustry1"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tvIndustry"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvProject"
+                android:layout_below="@+id/tvIndustry1"
+                android:text="Project Training"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact For All Projects Training With Synopsis"
+                android:gravity="center"
+                android:id="@+id/tvProject1"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tvProject"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAndroid"
+                android:layout_below="@+id/tvProject1"
+                android:text="Android Application and Web Development"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Types Of Android Aps Development With Google Rating and S.E.O"
+                android:gravity="center"
+                android:id="@+id/tvAndroid1"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tvAndroid"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFranchise"
+                android:layout_below="@+id/tvAndroid1"
+                android:text="We give you Frenchise"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact For Frenchise"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tvFranchise"
+                android:textColor="#ffffff" />
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+        </RelativeLayout>
